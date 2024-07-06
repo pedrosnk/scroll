@@ -1,8 +1,0 @@
-<%= for post <- @posts do %>
-  <div class='row'>
-    <h3 class='column'><%= post.title %></h3>
-  </div>
-  <div class='row'>
-    <p class='column'><%= raw post.content_html %></p[>
-  </div>
-<% end %>
